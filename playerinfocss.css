@@ -1,0 +1,388 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #eee;
+}
+
+html{
+    font-size: 100%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: .3rem;
+}
+
+.everything{
+    margin: 0px auto;
+    text-align: center;
+    width: 100%;
+    font-size: 1.25rem;
+}
+
+body{
+    background-image: url('images/aether.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+}
+
+main{
+    text-align: center;
+    width: 100%;
+}
+
+a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a:hover {
+  color: cyan;
+}
+
+.nav{
+    height: 50px;
+    width: 100%;
+    background: rgba(0,0,0,0.6);
+    background: -webkit-linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.2));
+    background: -o-linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.2));
+    background: -moz-linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.2));
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.2));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5625rem;
+    color: white;
+}
+
+.burger-toggle{
+    cursor: pointer;
+    margin: 0px;
+    padding-right: 1em;
+}
+
+.burger-toggle span{
+    display: inline-block;
+    text-indent: -9999px;
+}
+
+.burger{
+    display: none;
+}
+
+.main-menu, .sub-menu{
+    list-style: none;
+}
+
+.sub-menu{
+    padding-top: 1rem;
+    margin-top: -1rem;
+    background: rgba(0,0,0,0.6);
+    background: -webkit-linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0));
+    background: -o-linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0));
+    background: -moz-linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0));
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0));
+}
+
+.menu-item{
+    padding: 1em;
+}
+
+.main-menu{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    display: none;
+    margin: 0px;
+    z-index: 2;
+}
+
+.burger:checked ~ .main-menu {
+    display: block;
+    height: auto;
+}
+
+.logo{
+    margin: 0px;
+    padding-left: 1em;
+    height: 100%;
+}
+
+.logo img{
+    margin-top: -2.5rem;
+    height: 8rem;
+    width: 8rem;
+}
+
+.world{
+    font-size: 1.25rem;
+}
+
+@media screen and (min-width: 768px) {
+  .burger-toggle {
+    display: none;
+  }
+  
+  .sub-menu {
+    display: none;
+  }
+  
+  .main-menu {
+    display: flex;
+    justify-content: space-between;
+    position: inherit;
+    top: auto;
+    left: auto;
+    width: auto;
+    height: auto;
+  }
+  
+  .menu-item {
+    height: 50px;
+    line-height: 50px;
+    flex: 1;
+    text-align: center;
+    padding: 0 1em;
+    position: relative;
+
+  }
+  
+  .menu-item:hover .sub-menu {
+    display: block;
+    width: 200%;
+    position: absolute;
+    top: 50px;
+    left: 0; 
+  }
+}
+
+
+/*-----------------------------------------------------------------rows---------------------------------------------------------------------------------------*/
+
+.row{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: .5em;
+}
+
+/*----------------------------------------------------------------columns----------------------------------------------------------------------------------------*/
+
+.col{
+    width: 33.33%;
+    height: 100%;
+}
+
+.pic{
+    width: 25%;
+    padding: 1rem;
+    background-color: lightgray;
+}
+
+.text{
+    width: 50%;   
+    padding: 1rem;
+}
+
+.textwide{
+    width: 75%;
+    padding: 1rem;
+}
+
+/*-------------------------------------------content-----------------------------------------------*/
+
+.title{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.title img{
+    margin-top: -9rem;
+    width: 70%;
+    height: 70%;
+}
+
+.description{
+    font-size: 1rem;
+    text-align: left;
+    padding: .5rem;
+}
+
+.mainpics{
+    background-color: black;
+}
+
+.mainpics img{
+    width: 19.5%;
+}
+
+.content{
+    width: 60rem;
+    background-color: rgba(55,55,55,0.8);
+}
+
+.content-home{
+    width: 60rem;
+}
+
+.divider{
+    height: 25px;
+    width: 960px;
+    background-color: grey;
+    text-align: left;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divider p{
+    padding: 0 5px;
+}
+
+.button-holder{
+    width: 50%;
+}
+
+.button{
+    font-size: 2.25rem;
+    padding: 1rem;
+    border-radius: .25rem;
+    width: 90%;
+    background-color: rgba(75,75,75,0.8);
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgba(50,50,50,0.8);
+}
+
+figure{
+    position: relative;
+}
+
+figure:hover figcaption{
+    opacity: 1;
+} 
+
+figcaption{
+    position: absolute;
+    opacity: 0;
+    transition: .25s ease-in-out;
+    color: white;
+    font-size: 2rem;
+    margin-top: -5rem;
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    text-align: center;
+}
+
+.cinzel{
+    font-family: 'Cinzel Decorative', cursive, sans-serif;
+}
+
+.vollkorn{
+    font-family: 'Vollkorn', serif;
+}
+
+.center{
+    text-align: center;
+}
+
+.footer{
+    background-color: black;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+/*---------------------------------------Media Query-----------------------------*/
+
+@media  (max-width: 959px){
+    *{
+        font-size: 1.25rem;
+    }
+
+    .content{
+        width: 100%;
+    }
+
+    .content-home{
+        width: 100%;
+    }
+
+    .title img{
+        width: 100%;
+        margin: 0;
+    }
+
+    figcaption{
+        opacity: 1;
+    }
+
+    .button-holder{
+        width: 100%;
+    }
+    
+}
+
+@media  (max-width: 640px){
+
+    .main-menu, .sub-menu{
+        background-color: black;
+    }
+
+    .row{
+        width: 100%;
+        overflow: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+/*-------------------------------columns-----------------------------*/
+
+    .col{
+        width: 100%;
+    }
+
+    .pic{
+        width: 100%;
+        height: 30rem;
+    }
+
+    .text{
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .textwide{
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .mainpics img{
+        width: 19%;
+    }
+
+    
+}
