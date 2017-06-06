@@ -209,6 +209,7 @@ a:hover {
 .title{
     margin: 0 auto;
     width: 100%;
+    grid-area: title;
 }
 
 .title img{
@@ -312,6 +313,99 @@ figcaption{
     align-items: center; 
 }
 
+/*---------------------------------------character page-----------------------------*/
+
+.content-grid{
+    width: 60rem;
+    background-color: rgba(55,55,55,0.8);
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    justify-items: center;
+    grid-template-areas: "title ."
+                         "basics charPic"
+                         "story statin";
+    grid-gap: 4rem 4rem;
+}
+
+.basics{
+    display: grid;
+    grid-area: basics;
+    grid-template-areas: "name name"
+                         "player player"
+                         "level race";
+    grid-gap: 1rem 1rem;
+}
+
+.statin{
+    display: grid;
+    grid-area: statin;
+    grid-template-areas: "stats"
+                         "inventory";
+    grid-gap: 1rem 1rem;
+}
+
+.story{
+    background-color: rgba(55,55,55,0.8);
+    grid-area: story;
+}
+
+.name{
+    background-color: rgba(55,55,55,0.8);
+    grid-area: name;
+}
+
+.player{
+    background-color: rgba(55,55,55,0.8);
+    grid-area: player;
+}
+
+.level{
+    background-color: rgba(55,55,55,0.8);
+    grid-area: level;
+}
+
+.race{
+    background-color: rgba(55,55,55,0.8);
+    grid-area: race;
+}
+
+.charPic{
+    grid-area: charPic;
+}
+
+.charPic img{
+    width: 100%;
+}
+
+.stats{
+    background-color: rgba(55,55,55,0.8);
+    grid-area: stats;
+}
+
+.inventory{
+    background-color: rgba(55,55,55,0.8);
+    grid-area: inventory;
+}
+
+.characters{
+    width: 24%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: .5em;
+}
+
+.characters img{
+    width: 100%;
+}
+
+.display{
+    opacity: 1;
+}
+
 /*---------------------------------------Media Query-----------------------------*/
 
 @media  (max-width: 959px){
@@ -338,6 +432,10 @@ figcaption{
 
     .button-holder{
         width: 100%;
+    }
+
+    .characters{
+        width: 30%;
     }
     
 }
@@ -382,6 +480,10 @@ figcaption{
 
     .mainpics img{
         width: 19%;
+    }
+
+    .characters{
+        width: 100%;
     }
 
     
