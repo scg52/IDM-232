@@ -1,37 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Coriath</title>
-  <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Vollkorn" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="../playerinfocss.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-
-<body>
- <div class="everything">
- <header>                          
-      <nav class="nav cinzel">
-      <div class="logo"><a href="../index.html"><img src="../images/logo.png"></a></div>
-      <input type="checkbox" name="burger" id="burger" class="burger">
-      <label for="burger" class="burger-toggle"><span>Menu</span>&#9776;</label>
-      <ul class="main-menu">
-        <li class="menu-item right"><a href="index.html">Worlds</a>
-            <ul class="sub-menu">
-            <li class="menu-item world"><a href="coriath.html">Coriath</a></li>
-            <li class="menu-item world"><a href="grimoire.html">Grimoire</a></li>
-            <li class="menu-item world"><a href="commodore.html">Commodore</a></li>
-            <li class="menu-item world"><a href="cutlass.html">Cutlass</a></li>
-            <li class="menu-item world"><a href="ragnarok.html">Ragnarok</a></li>
-            <!--<li><a href="worlds/feia.html">Feia</a></li>
-            <li><a href="worlds/kiina.html">Ki'ina</a></li> -->
-          </ul>
-        </li>
-        <li class="menu-item right"><a href="../howtoplay.html">Gameplay</a></li>
-      </ul>
-      </nav>
-  </header>
-
-   <main>
     <div class="content vollkorn">                                                               <!-- body-->
       <div class="title cinzel">
         <br>
@@ -45,7 +11,7 @@
         <hr>
         <div class="row">
           <div class="pic">  
-            <img src="../images/corian.png" alt="Human">
+            <img src="images/corian.png" alt="Human">
           </div><!--pic-->
           <div class="textwide">
             <p>Humans of Coriath are a lively bunch of brutes. They flex their muscles and tote their maces, clubs, and axes. Swords are a rare sight only because cutting through an Auric Shield is less likely than shattering it altogether. When a warrior is seen with a sword it is usually longer than the wielder is tall. Humans also relish in the magic that was granted them by Xilix once he was defeated. They use this magic to propel their weapons at devastating speeds to crush and mangle their opponent with the raw power of the elements. There is slight tension between the Human and Fen factions of Coriath but most problems can be solved by sparring then a tall drink.</p>
@@ -70,18 +36,10 @@
             <br>
           </div> <!--pic-->
           <div class="pic">
-              <img src="../images/fen.png" alt="Fen">
+              <img src="images/fen.png" alt="Fen">
           </div><!--pic-->
         <br> 
         <br>
       </div><!--row-->
       </div><!--Description-->
     </div> <!--content-->
-    <div class="footer">
-      <p>Stephen Gross</p>
-      <a href="../images.html">Image use</a>
-    </div>
-   </main>
-  </div>       <!-- close div everything-->
-</body>
-</html>

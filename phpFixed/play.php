@@ -1,37 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>How To Play</title>
-  <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Vollkorn" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="playerinfocss.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-
-<body>
- <div class="everything">
- <header>                          
-      <nav class="nav cinzel">
-      <div class="logo"><a href="index.html"><img src="images/logo.png"></a></div>
-      <input type="checkbox" name="burger" id="burger" class="burger">
-      <label for="burger" class="burger-toggle"><span>Menu</span>&#9776;</label>
-      <ul class="main-menu">
-        <li class="menu-item right"><a href="worlds/index.html">Worlds</a>
-            <ul class="sub-menu">
-            <li class="menu-item world"><a href="worlds/coriath.html">Coriath</a></li>
-            <li class="menu-item world"><a href="worlds/grimoire.html">Grimoire</a></li>
-            <li class="menu-item world"><a href="worlds/commodore.html">Commodore</a></li>
-            <li class="menu-item world"><a href="worlds/cutlass.html">Cutlass</a></li>
-            <li class="menu-item world"><a href="worlds/ragnarok.html">Ragnarok</a></li>
-            <!--<li><a href="worlds/feia.html">Feia</a></li>
-            <li><a href="worlds/kiina.html">Ki'ina</a></li> -->
-          </ul>
-        </li>
-        <li class="menu-item right"><a href="howtoplay.html">Gameplay</a></li>
-      </ul>
-      </nav>
-  </header>
-  
-   <main>
     <div class="content vollkorn">                                                               <!-- body-->
       <div class="title cinzel">
         <br>
@@ -92,11 +58,3 @@
 
       </div><!--description-->
     </div> <!--content-->
-    <div class="footer">
-      <p>Stephen Gross</p>
-      <a href="images.html">Image use</a>
-    </div>
-   </main>
-  </div>       <!-- close div everything-->
-</body>
-</html>

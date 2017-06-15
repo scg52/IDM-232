@@ -1,37 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Commodore</title>
-  <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Vollkorn" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="../playerinfocss.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-
-<body>
- <div class="everything">
- <header>                          
-      <nav class="nav cinzel">
-      <div class="logo"><a href="../index.html"><img src="../images/logo.png"></a></div>
-      <input type="checkbox" name="burger" id="burger" class="burger">
-      <label for="burger" class="burger-toggle"><span>Menu</span>&#9776;</label>
-      <ul class="main-menu">
-        <li class="menu-item right"><a href="index.html">Worlds</a>
-            <ul class="sub-menu">
-            <li class="menu-item world"><a href="coriath.html">Coriath</a></li>
-            <li class="menu-item world"><a href="grimoire.html">Grimoire</a></li>
-            <li class="menu-item world"><a href="commodore.html">Commodore</a></li>
-            <li class="menu-item world"><a href="cutlass.html">Cutlass</a></li>
-            <li class="menu-item world"><a href="ragnarok.html">Ragnarok</a></li>
-            <!--<li><a href="worlds/feia.html">Feia</a></li>
-            <li><a href="worlds/kiina.html">Ki'ina</a></li> -->
-          </ul>
-        </li>
-        <li class="menu-item right"><a href="../howtoplay.html">Gameplay</a></li>
-      </ul>
-      </nav>
-  </header>
-  
-   <main>
     <div class="content vollkorn">                                                               
       <div class="title cinzel">
         <br>
@@ -46,7 +12,7 @@
         <hr>
         <div class="row">
           <div class="pic">
-            <img src="../images/human.png" alt="Pilot">
+            <img src="images/human.png" alt="Pilot">
           </div> <!--pic-->
           <div class="textwide">
             <p>Pilots each command a powerful mech that they have customized. These one man tanks have become a staple on the Commodorian battlefield. These suits are always at the frontline of any major battle. Most come equiped with energy shields and some form of light machine gun. The downfall of these suits is that they are large and require sufficient power to drive. The power issue has been partially circumvented by the addition of solar power cells. </p>
@@ -65,16 +31,8 @@
             <br>
           </div> <!--text-->
           <div class="pic">
-            <img src="../images/striker.jpg" alt="Striker">
+            <img src="images/striker.jpg" alt="Striker">
           </div> <!--col-->
         </div> <!--row-->
       </div> <!--description-->
     </div> <!--content-->
-    <div class="footer">
-      <p>Stephen Gross</p>
-      <a href="../images.html">Image use</a>
-    </div>
-   </main>
- </div>       <!-- close div everything-->
-</body>
-</html>

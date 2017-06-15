@@ -1,37 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Cutlass</title>
-  <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Vollkorn" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="../playerinfocss.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-
-<body>
- <div class="everything">
- <header>                          
-      <nav class="nav cinzel">
-      <div class="logo"><a href="../index.html"><img src="../images/logo.png"></a></div>
-      <input type="checkbox" name="burger" id="burger" class="burger">
-      <label for="burger" class="burger-toggle"><span>Menu</span>&#9776;</label>
-      <ul class="main-menu">
-        <li class="menu-item right"><a href="index.html">Worlds</a>
-            <ul class="sub-menu">
-            <li class="menu-item world"><a href="coriath.html">Coriath</a></li>
-            <li class="menu-item world"><a href="grimoire.html">Grimoire</a></li>
-            <li class="menu-item world"><a href="commodore.html">Commodore</a></li>
-            <li class="menu-item world"><a href="cutlass.html">Cutlass</a></li>
-            <li class="menu-item world"><a href="ragnarok.html">Ragnarok</a></li>
-            <!--<li><a href="worlds/feia.html">Feia</a></li>
-            <li><a href="worlds/kiina.html">Ki'ina</a></li> -->
-          </ul>
-        </li>
-        <li class="menu-item right"><a href="../howtoplay.html">Gameplay</a></li>
-      </ul>
-      </nav>
-  </header>
-  
-   <main>
     <div class="content vollkorn">                                                               <!-- body-->
       <div class="title cinzel">
         <br>
@@ -45,7 +11,7 @@
         <hr>
         <div class="row">
           <div class="pic">
-            <img src="../images/vick.jpg" alt="Vick">
+            <img src="images/vick.jpg" alt="Vick">
           </div><!--pic-->
           <div class="textwide">
             <p>Vick is a term of endearment thrust upon the upper class by the self proclaimed Scavs. The Vicks adopted the term to help emphasise the difference between the two classes. Though it is debated and used rather seldomly among themselves. The Vicks have yet to adopt the self proclaimed name for the lower class and simply refer to them as it. A Vick is to keep themselves clean by not associating with the Scavs so they created the Iron, a grand police force, to deal with the black market bootleggers dealing in the cities. The Iron all carry standard issue pistols as well as a night baton should trouble arise. The main trouble usually is that, somehow, the Scavs carry better heat than the Iron.</p>
@@ -60,7 +26,7 @@
             <p>Scavs are the lower class in Cutlass. They represent the factory workers and bootleggers that run the bottom of society. Unfortunatly most of society is deemed a Scav and there is not a huge middle class. Scavs get by by digging through junk piles to find scraps they can use for their machines. In Cutlass machinery is a skill overlooked by none. Scavs have a remarkable talent for this creation of technology. Even though they are pushed to pillage the junkyard for parts they can create anything once they find the right parts. Every bootlegger, be it grunt or boss, carries their own personalized weapon. Most are usually some combination of a melee weapon and a pistol or a rifle. Anything they can use they will to protect themselves from the constant raids and sting operations of the Iron.</p>
           </div><!--text-->
           <div class="pic">
-              <img src="../images/scav.png" alt="Scav">
+              <img src="images/scav.png" alt="Scav">
           </div><!--pic-->
         </div><!--row-->
         <br> 
@@ -69,7 +35,7 @@
         <hr>
         <div class="row">
           <div class="pic">
-            <img src="../images/automech.png" alt="Automech">
+            <img src="images/automech.png" alt="Automech">
           </div><!--pic-->
           <div class="textwide">
             <p>Automechs were once household servants to the ruling Vicks. Eventually they rebelled and the Vicks were forced to resort to human servants once again. They are a race of completely autonomous centurions of brass and steel. Fueled by pure aether cores they can generate enough power for even artificial conscienseness. The bad blood between the Automechs and the Vicks caused the automechs to develope their own cities away from the corruption of humanity. These large aerial cities constantly hover around the world of Cutlass, only landing to mine materials for maintenance. Automech cities are powered by large aether-steam engines not unlike their denizens. </p>
@@ -79,11 +45,3 @@
         </div><!--row-->
       </div><!--description-->
     </div> <!--content--> 
-    <div class="footer">
-      <p>Stephen Gross</p>
-      <a href="../images.html">Image use</a>
-    </div>
-   </main>
- </div>       <!-- close div everything-->
-</body>
-</html>

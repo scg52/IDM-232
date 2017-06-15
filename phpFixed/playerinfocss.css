@@ -238,7 +238,7 @@ a:hover {
 }
 
 .content-home{
-    width: 60rem;
+    width: 100vw;
 }
 
 .divider{
@@ -348,6 +348,7 @@ figcaption{
 .story{
     background-color: rgba(55,55,55,0.8);
     grid-area: story;
+    width:  100%;
 }
 
 .name{
@@ -363,15 +364,18 @@ figcaption{
 .level{
     background-color: rgba(55,55,55,0.8);
     grid-area: level;
+    width: 50%;
 }
 
 .race{
     background-color: rgba(55,55,55,0.8);
     grid-area: race;
+    width: 50%;
 }
 
 .charPic{
     grid-area: charPic;
+    width: 100%;
 }
 
 .charPic img{
@@ -389,17 +393,25 @@ figcaption{
 }
 
 .characters{
-    width: 24%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: .5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem 1rem;
 }
 
-.characters img{
-    width: 100%;
+input[type=text]{
+    color: #000;
+}
+
+input[type=submit]{
+    font-size: 2.25rem;
+    padding: 1rem;
+    border-radius: .25rem;
+    width: 90%;
+    background-color: rgba(75,75,75,0.8);
+}
+
+input[type=submit]:hover{
+    background-color: rgba(50,50,50,0.8);
 }
 
 .display{
@@ -436,6 +448,19 @@ figcaption{
 
     .characters{
         width: 30%;
+    }
+
+    .content-grid{
+        grid-template-columns: 1fr;
+        grid-template-areas: "title ."
+                             "basics charPic"
+                             "statin statin"
+                             "story story";
+    }
+
+    .statin{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "stats inventory";
     }
     
 }
@@ -486,5 +511,23 @@ figcaption{
         width: 100%;
     }
 
+    .char-item{
+        width: 100%;
+    }
+    
+    .content-grid{
+        grid-template-columns: 1fr;
+        grid-template-areas: "title"
+                             "basics" 
+                             "charPic"
+                             "statin"
+                             "story";
+    }
+
+    .statin{
+        grid-template-columns: 1fr;
+        grid-template-areas: "stats"
+                             "inventory";
+    }
     
 }

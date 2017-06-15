@@ -1,37 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Grimoire</title>
-  <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Vollkorn" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="../playerinfocss.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-
-<body>
- <div class="everything">
- <header>                          
-      <nav class="nav cinzel">
-      <div class="logo"><a href="../index.html"><img src="../images/logo.png"></a></div>
-      <input type="checkbox" name="burger" id="burger" class="burger">
-      <label for="burger" class="burger-toggle"><span>Menu</span>&#9776;</label>
-      <ul class="main-menu">
-        <li class="menu-item right"><a href="index.html">Worlds</a>
-            <ul class="sub-menu">
-            <li class="menu-item world"><a href="coriath.html">Coriath</a></li>
-            <li class="menu-item world"><a href="grimoire.html">Grimoire</a></li>
-            <li class="menu-item world"><a href="commodore.html">Commodore</a></li>
-            <li class="menu-item world"><a href="cutlass.html">Cutlass</a></li>
-            <li class="menu-item world"><a href="ragnarok.html">Ragnarok</a></li>
-            <!--<li><a href="worlds/feia.html">Feia</a></li>
-            <li><a href="worlds/kiina.html">Ki'ina</a></li> -->
-          </ul>
-        </li>
-        <li class="menu-item right"><a href="../howtoplay.html">Gameplay</a></li>
-      </ul>
-      </nav>
-  </header>
-  
-   <main>
     <div class="content vollkorn">                                                               <!-- body-->
       <div class="title cinzel">
         <br>
@@ -46,7 +12,7 @@
         <hr>
         <div class="row">
           <div class="pic">
-              <img src="../images/eld.png" alt="Human">
+              <img src="images/eld.png" alt="Human">
           </div><!--pic-->
           <div class="textwide">
             <p>Ordinary humans are mostly a rare sight in Grimoire. Most pure humans are either quickly devoured or converted to either the coven or the pack. The only humans that are off limits are those of the Royal Von Goethe family. They represent the human house of the three ruling houses. The Von Goethes also hold the least amount of power between the three houses. To make up for that fact the Von Goethes hold the swing vote if there is a major dispute between the other two houses. Humans may be lacking in physical apsects when compared to the Lycans or the Vampires. The defining aspect that humanity holds above the other two races is alchemy. They are the only ones who can harness this meager splash of Aether.</p>
@@ -65,7 +31,7 @@
             <br>
           </div><!--text-->
           <div class="pic">
-            <img src="../images/lycan.png" alt="Lycan">
+            <img src="images/lycan.png" alt="Lycan">
           </div><!--pic-->
         </div><!--row-->
 
@@ -74,7 +40,7 @@
         <hr>
         <div class="row">
           <div class="pic">
-            <img src="../images/vamp.png" alt="Vampire">
+            <img src="images/vamp.png" alt="Vampire">
           </div> <!--pic-->
           <div class="textwide">
             <p>The Coven is the most regal of the three houses. They rule the cities and townships of Grimoire. With their extended lives each member of the Coven has seen their fair share of combat. They are masters of darkness making some of the best assassins and rogues. All members of the bloodline also share a special trait called The Bloodlust. Once activated they can regain health from using their basic attack against enemies. During Bloodlust a Vampire can also shadow walk, an ability where they can move as a shadow for one turn. The only drawback of Bloodlust is sunlight. When Bloodlust is activated in direct sunlight the vampire takes damage every turn they are in sunlight and Bloodlust is active. Shadow Walk cannot be activated in direct sunlight.</p> 
@@ -85,11 +51,3 @@
 
       </div><!--description-->
     </div> <!--content-->
-    <div class="footer">
-      <p>Stephen Gross</p>
-      <a href="../images.html">Image use</a>
-    </div>
-   </main>
-  </div>       <!-- close div everything-->
-</body>
-</html>

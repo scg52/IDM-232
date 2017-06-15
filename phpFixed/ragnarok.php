@@ -1,37 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Ragnarok</title>
-  <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Vollkorn" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="../playerinfocss.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-
-<body>
- <div class="everything">
- <header>                          
-      <nav class="nav cinzel">
-      <div class="logo"><a href="../index.html"><img src="../images/logo.png"></a></div>
-      <input type="checkbox" name="burger" id="burger" class="burger">
-      <label for="burger" class="burger-toggle"><span>Menu</span>&#9776;</label>
-      <ul class="main-menu">
-        <li class="menu-item right"><a href="index.html">Worlds</a>
-            <ul class="sub-menu">
-            <li class="menu-item world"><a href="coriath.html">Coriath</a></li>
-            <li class="menu-item world"><a href="grimoire.html">Grimoire</a></li>
-            <li class="menu-item world"><a href="commodore.html">Commodore</a></li>
-            <li class="menu-item world"><a href="cutlass.html">Cutlass</a></li>
-            <li class="menu-item world"><a href="ragnarok.html">Ragnarok</a></li>
-            <!--<li><a href="worlds/feia.html">Feia</a></li>
-            <li><a href="worlds/kiina.html">Ki'ina</a></li> -->
-          </ul>
-        </li>
-        <li class="menu-item right"><a href="../howtoplay.html">Gameplay</a></li>
-      </ul>
-      </nav>
-  </header>
-  
-   <main>
     <div class="content vollkorn">                                                               <!-- body-->
       <div class="title cinzel">
         <br>
@@ -45,7 +11,7 @@
         <hr>
         <div class="row">
           <div class="pic">
-              <img src="../images/rannak.png" alt="Fen">
+              <img src="images/rannak.png" alt="Fen">
           </div><!--pic-->
           <div class="textwide">
             <p>Those who are immune to the bio-weapon must scrape together to survive. Carrying the I gene is not an indicator of luck. Carriers have to live in the horror of Ragnarok, constantly being hunted by the Ravagers. Those without a special physiological anomaly either have a trait they call Overwhelmed or rely on biological amplifiers to deal with the hordes of feral dead.</p>
@@ -76,16 +42,8 @@
             <br>
           </div><!--text-->
           <div class="pic">
-            <img src="../images/ravager.png" alt="Ravager">
+            <img src="images/ravager.png" alt="Ravager">
           </div><!--pic-->
         </div><!--row-->
       </div>
     </div> 
-    <div class="footer">
-      <p>Stephen Gross</p>
-      <a href="../images.html">Image use</a>
-    </div>
-   </main>
-  </div>       <!-- close div everything-->
-</body>
-</html>
