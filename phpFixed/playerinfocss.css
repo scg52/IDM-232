@@ -316,7 +316,7 @@ figcaption{
 /*---------------------------------------character page-----------------------------*/
 
 .content-grid{
-    width: 60rem;
+    width: 100%;
     background-color: rgba(55,55,55,0.8);
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -349,28 +349,33 @@ figcaption{
     background-color: rgba(55,55,55,0.8);
     grid-area: story;
     width:  100%;
+    padding: 1rem;
 }
 
 .name{
     background-color: rgba(55,55,55,0.8);
     grid-area: name;
+    padding: 1rem;
 }
 
 .player{
     background-color: rgba(55,55,55,0.8);
     grid-area: player;
+    padding: 1rem;
 }
 
 .level{
     background-color: rgba(55,55,55,0.8);
     grid-area: level;
     width: 50%;
+    padding: 1rem;
 }
 
 .race{
     background-color: rgba(55,55,55,0.8);
     grid-area: race;
     width: 50%;
+    padding: 1rem;
 }
 
 .charPic{
@@ -385,11 +390,13 @@ figcaption{
 .stats{
     background-color: rgba(55,55,55,0.8);
     grid-area: stats;
+    padding: 1rem;
 }
 
 .inventory{
     background-color: rgba(55,55,55,0.8);
     grid-area: inventory;
+    padding: 1rem;
 }
 
 .characters{
@@ -420,6 +427,7 @@ input[type=submit]:hover{
 
 /*---------------------------------------Media Query-----------------------------*/
 
+/*tablet*/
 @media  (max-width: 959px){
     *{
         font-size: 1.25rem;
@@ -462,9 +470,14 @@ input[type=submit]:hover{
         grid-template-columns: 1fr 1fr;
         grid-template-areas: "stats inventory";
     }
+
+    .characters{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
     
 }
 
+/*phone*/
 @media  (max-width: 640px){
 
     .main-menu, .sub-menu{
@@ -508,7 +521,8 @@ input[type=submit]:hover{
     }
 
     .characters{
-        width: 100%;
+        grid-template-columns: 1fr;
+        grid-column-gap: 0rem;
     }
 
     .char-item{

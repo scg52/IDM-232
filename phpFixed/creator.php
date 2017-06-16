@@ -1,4 +1,4 @@
-<form action="" method="post">
+<form action="insert.php" method="post">
 <div class="content-grid vollkorn">                                                    <!-- body-->
       
       <div class="title">
@@ -47,6 +47,7 @@
           <div class="adventures">
           <h3>Adventures</h3>
           <input type="text" name="adventure" value="Current Adventures" class="char-form">
+          <br>
           <br>
           <input type="submit" class="char-form">
           </div>

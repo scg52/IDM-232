@@ -9,9 +9,9 @@
 
         <div class="characters">
 
-         <figure>
+         <figure class="char-item">
           <a href="structure.php?title=creator">
-            <img src="" alt="Create a Character">
+            <img src="images/question.jpg" alt="Create a Character">
           </a>
           <figcaption class="display">
           <a href="structure.php?title=creator">
@@ -34,9 +34,14 @@
 
           ?>
 
-        <figure>
+        <figure class="char-item">
           <a href="structure.php?title=character&id=<?php echo $row['id']; ?>">
-            <img src="<?php echo $row['pic'];?>" alt="<?php echo $row['name'];?>">
+             <?php if($row['pic'] === "Picture URL"){
+              $pic = "images/question.jpg";}
+              else {
+                $pic = $row['pic'];
+                } //if no pic is selected?>
+            <img src="<?php echo $pic;?>" alt="<?php echo $row['name'];?>">
           </a>
           <figcaption class="display">
           <a href="structure.php?title=character&id=<?php echo $row['id']; ?>">

@@ -17,6 +17,7 @@
     $stats = $row['stats'];
     $backstory = $row['backstory'];
     $pic = $row['pic'];
+    $adventure = $row['adventure'];
   }
 ?>
     <div class="content-grid vollkorn">                                                    <!-- body-->
@@ -44,7 +45,10 @@
       </div><!--basics-->
         
         <div class="charPic char-item">
+        <?php if($pic === "Picture URL"){
+          $pic = "images/question.jpg";} //if no pic is selected?>
           <img src="<?php echo $pic; ?>" alt="<?php echo $name; ?>">
+        
         </div>
 
       <div class="statin">
@@ -67,13 +71,8 @@
           <div class="adventures">
           <h3>Adventures</h3>
           <?php
-            $query2 = "SELECT * FROM adventures WHERE name = $name";
-            $result2 = mysqli_query($connection, $query2);
-
-            while ($row = mysqli_fetch_assoc($result2)) { 
-              $story = $row['story'];
-              echo "<p>" . $story . "</p>";
-            }?>
+            echo $adventure;
+            ?>
           </div>
         </div>
     </div>
